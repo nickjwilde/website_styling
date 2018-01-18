@@ -17,6 +17,15 @@ h1 {
     color: #D4B26A;
 }
 
+a > .fa {
+    padding-right: 5px; 
+}
+
+#banner-quote{
+    width: 100%;
+    font-size: 20px;
+}
+
 .nw-accent-color {
     color: #D46D6A;
 }
@@ -35,6 +44,17 @@ h1 {
     outline: none;
     display: block;
 
+}
+
+.nw-bgimg {
+    background-image: url("home_banner_image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    min-height: 400px;
+    max-height: 500px;
 }
 
 .nw-button {
@@ -58,6 +78,31 @@ h1 {
     background-color: #0D4A4D;
 }
 
+.nw-container {
+    padding: 0.1em 16px;
+}
+
+.nw-display-container {
+    position: relative;
+}
+
+.nw-display-bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.nw-display-middle {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nw-opacity-80{
+    opacity: .80;
+}
+
 .nw-primary-background {
     background-color: #236863;
     color: #dedede;
@@ -69,6 +114,19 @@ h1 {
 
 .nw-secondary-color {
     color: #D4B26A;
+}
+
+.nw-top {
+    position: fixed;
+    top: 0;
+}
+
+.nw-transparent-bg, .nw-transparent-bg:hover {
+    background-color: transparent!important;
+}
+
+.nw-white {
+    color: #dedede;
 }
 
 [class*="col-"] {
@@ -106,6 +164,10 @@ h1 {
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
+
+    #banner-quote {
+        width: 50%;    
+    }
 }
 
 @media (min-width: 993px) {
